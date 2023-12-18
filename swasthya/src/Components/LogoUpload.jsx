@@ -8,7 +8,7 @@ function LogoUpload() {
     <div className='logo'>
     <h2>Add Image</h2>
       <input type="file" onChange={getFile} />
-      <img src={file}  />
+      <img src={file} height="100px" width="100px"/>
     </div>
   )
 }
