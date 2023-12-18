@@ -1,5 +1,5 @@
 import {useState} from 'react';
-function ImageUpload() {
+function LogoUpload() {
     const [file,setFile]=useState();
     function getFile(event){
     setFile(URL.createObjectURL(event.target.files[0]));
@@ -12,5 +12,4 @@ function ImageUpload() {
     </div>
   )
 }
-
-export default ImageUpload
+export default LogoUpload;

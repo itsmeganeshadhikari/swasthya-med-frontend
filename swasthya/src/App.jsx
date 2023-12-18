@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
-import ImageUpload from './Components/ImageUpload';
+import LogoUpload from './Components/LogoUpload';
 
 const App = () => {
   return (
     <React.Fragment>
-  <Navbar/>
-   <ImageUpload/>
+ 
+   <LogoUpload/>
    </React.Fragment>
   )
 }
